@@ -1,0 +1,28 @@
+<p id="notice"><%= notice %></p>
+<h1 class="toy1">RIDE TOY</h1>
+
+<table>
+  <thead>
+   <tr>
+     <th style="width:20%">name</th>
+     <th>price</th>
+     <th style="width:40%">image</th>
+     <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+  <% @toyes.each do |toy| %>
+    <tr>
+     <td><%= toy.name %><td>
+     <td><%= toy.price %><td>
+     <td style="width:40%"><img style="width:60%" src=<%= toy.image.url %>><td>
+    
+
+
+    </tr>
+   <% end %>
+  </tbody>
+</table>
+
+<br>

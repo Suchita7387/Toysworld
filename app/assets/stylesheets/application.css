@@ -1,0 +1,23 @@
+
+body{
+  background-color: rgb(247, 78, 210);
+}
+h1 {text-align: center; color:blue;}
+.divimg {
+ width: 80%;
+  
+  background: url('Banner-images.jpg');
+  height: 700px !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p1{
+  background-image: url('baby-playing-toys-7241489.jpg');
+  height: 700px;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
